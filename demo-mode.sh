@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/bin/
 adb shell settings put global sysui_demo_allowed 1 
 
 adb shell am broadcast -a com.android.systemui.demo -e command clock -e hhmm 1200
